@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="16.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="@Orature/root.css" />
+      <URL value="@Orature/Button.css" />
+   </stylesheets>
+   <children>
+      <JFXButton maxWidth="1.7976931348623157E308" textOverrun="CLIP">
+         <graphic>
+            <FontIcon iconLiteral="gmi-arrow-forward" styleClass="btn__icon" />
+         </graphic>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn--primary" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton alignment="CENTER" layoutX="50.0" layoutY="190.0" maxWidth="1.7976931348623157E308" ripplerFill="WHITE" textOverrun="CLIP">
+         <graphic>
+            <FontIcon iconLiteral="gmi-arrow-forward" styleClass="btn__icon" />
+         </graphic>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn--cta" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton layoutX="50.0" layoutY="218.0" maxWidth="1.7976931348623157E308" ripplerFill="#015ad9" textOverrun="CLIP">
+         <graphic>
+            <FontIcon iconLiteral="gmi-arrow-forward" styleClass="btn__icon" />
+         </graphic>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn--secondary" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton layoutX="50.0" layoutY="246.0" maxWidth="1.7976931348623157E308" ripplerFill="#015ad9" textOverrun="CLIP">
+         <graphic>
+            <FontIcon iconLiteral="gmi-arrow-forward" styleClass="btn__icon" />
+         </graphic>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn--tertiary" />
+         </styleClass>
+      </JFXButton>
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </padding>
+</VBox>
