@@ -23,7 +23,7 @@
 
 /* -------------- Primary Button -------------- */
 .btn--primary {
-    -fx-background-color: -primary;
+    -fx-background-color: -orange;
     -fx-effect: -level2;
     -fx-text-fill: -white;
     -fx-border-width: 0px;
